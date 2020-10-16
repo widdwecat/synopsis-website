@@ -1,7 +1,56 @@
+@font-face { font-family: Source Sans PRO Semi-Bold Italic; src: url('SourceSansPro-SemiboldIt.ttf') }
+
 header {
-    text-align: center;
+    text-align: left;
 }
 
 body {
     text-align: center;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#features-combat {
+    font-family: Source Sans PRO Semi-Bold Italic;
+    color: #ffff;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
 }
