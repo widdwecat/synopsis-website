@@ -1,5 +1,10 @@
 @font-face { font-family: Source Sans PRO Semi-Bold Italic; src: url('SourceSansPro-SemiboldIt.ttf') }
 
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+
 header {
     text-align: left;
 }
@@ -10,11 +15,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-}
-
-#features-combat {
-    font-family: Source Sans PRO Semi-Bold Italic;
-    color: #ffff;
 }
 
 
@@ -32,25 +32,83 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul li {
-    display: inline-block;
+.card {
+    font-family: url('SourceSansPro-SemiboldIt.ttf');
+    text-align: center;
+    color: white;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid #fff;
-    transition: 0.6s ease;
+.credits {
+    color: white;
+    font-family: sans-serif;
 }
 
-ul li a:hover {
-    background-color: #fff;
-    color: #000;
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20%;
 }
 
 .logo img {
     float: left;
     width: 150px;
     height: auto;
+}
+
+.nav-links {
+    flex: 1;
+    float: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.nav-links ul li a:hover {
+    color: #e6e6e6;
+}
+
+.reviews {
+    right: 10%;
+    top: 50%;
+    text-align: center;
+}
+
+.controls {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.controls h3 {
+    margin: 15px 0;
+    color: #fff;
+}
+
+#upBtn {
+    width: 30px;
+    cursor: pointer;
+}
+
+#downBtn {
+    width: 30px;
+    cursor: pointer;
+    transform: rotate(180deg);
 }
