@@ -8,54 +8,63 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="style.css" type="text/css" rel="stylesheet">
      <title>Synopsis</title>
+     <script src="script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+      new Crate({
+        server: '765153679514009651', // Synopsis
+        channel: '765157418929487882' // #general
+      })
+    </script>
   </head>
     
    <body>
     <header>
-      <div class="logo">
-        <img src= /Assets/Images/logo.png>
-      </div>
-
       <div class="main">
+       <nav>
+        <div class="logo">
+          
+        </div>
+        <div class="nav-links">
         <ul>
           <li><a href="https://widdwecat.github.io/synopsis-website/">Home</a></li>
           <li><a href="#">Features</a></li>
           <li><a href="#">Sign Up</a></li>
           <li><a href="#">Log In</a></li>
-          <li><a href="https://discord.gg/QGDc2kp">Discord</a></li>
         </ul>
       </div>
-    </header>
+    </nav>
+   </header>
 
 
      <main>
-          <iframe width="1120" height="630" src="https://www.youtube-nocookie.com/embed/mc0Ro2WzWsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="card">
+        <h4 class="card-title">Combat</h4>
+        <ul>
+          <li title="Client automatically aims for you with a bow.">AutoAim</li>
+          <li title="Experimental">AutoArmour</li>
+          <li title="Automatically place endcrystals to kill enemies.">AutoCrystal</li>
+          <li title="Automatically types in chat when you get a kill.">AutoEZ</li>
+          <li title="Automatically equip a totem">AutoTotem</li>
+          <li title="Increased chance of getting critical hits.">Criticals</li>
+          <li title="Automatically swing at enemies with a sword">KillAura</li>
+          <li title="Places obsidian at your feet to protect yourself from end crystals.">Surround</li>
+          <li title="Experimental">ThickSurround</li>
+          <li title="Avoid knockback.">Velocity</li>
+        </ul>
+      </div>
         </main>
 
-        <div class="features-combat">
-          <li> AutoAim </li>
-          <li> AutoArmour </li>
-          <li> AutoCrusyal </li>
-          <li> AutoEZ </li>
-          <li> AutoTotem </li>
-          <li> Criticals </li>
-          <li> KillAura </li>
-          <li> Surround </li>
-          <li> ThickSurround </li>
-          <li> Velocity </li>
-        </div>
-
-        <div class="features-exploits">
-          <li> AntiHunger </li>
-          <li> LiquidInteract </li>
-          <li> NewChunks </li>
-          <li> PacketCanceller </li>
-          <li> TeleportCoordLogger </li>
-          <li> WeatherChange </li>
-        </div>
+<div class="controls">
+    <img src="arrow.png" id="upBtn">
+    <h3> Reviews </h3>
+    <img src="arrow.png" id="downBtn">
+</div>
 
           <footer>
+            <iframe width="1120" height="630" src="https://www.youtube-nocookie.com/embed/mc0Ro2WzWsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <p> © Copyright 2020 Synposis Development - All Rights Reserved </p>
         </footer>
    </body>
+  </script>
 </html>
