@@ -1,4 +1,4 @@
-![logo of synopsis](/Assets/Images/logo.png)
+![logo of synopsis](/assets/images/logo.png)
 
 # synopsis-website
 
